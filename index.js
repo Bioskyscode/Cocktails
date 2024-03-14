@@ -1,5 +1,4 @@
 $(".grid-items").hide();
-//$(".container").hide();
 var cocktails = [
     "display1", "display2", "display3", "display4", "display5", 
     "display6", "display7", "display8", "display9", "display10"
@@ -16,7 +15,7 @@ function enableMenu(params) {
 // ############ Random Cocktail ########
 $(".select-menu").on("click", function menuC() {
     
-    if (window.innerHeight < 799) {
+    if (window.innerHeight < 654) {
         $(".title-text").slideUp();
     }
     $(".grid-items").hide();

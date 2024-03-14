@@ -81,21 +81,20 @@ header .title-text {
   font-size: x-large;
 }
 .Cocktail-section .Cocktail-grid {
+  display: flex;
   width: -moz-fit-content;
   width: fit-content;
   gap: 10px;
-  margin: 10px auto 30px auto;
-  padding: 0;
+  margin: 10px 0 30px 0;
   justify-content: center;
+  align-self: center;
 }
 .Cocktail-section .Cocktail-grid .grid-items {
   color: rgb(106, 105, 105);
   height: auto;
-  width: 223px;
+  width: 255px;
   border: 0.1em solid #b4cdda;
   border-radius: 10px;
-  padding: 0;
-  margin: 0;
 }
 .Cocktail-section .Cocktail-grid .grid-items .grid-items-contentw {
   display: flex;

@@ -91,18 +91,25 @@ header .title-text {
 .Cocktail-section .Cocktail-grid .grid-items {
   color: rgb(106, 105, 105);
   height: auto;
-  width: 213px;
+  width: 223px;
   border: 0.1em solid #b4cdda;
   border-radius: 10px;
   padding: 0;
+  margin: 0;
+}
+.Cocktail-section .Cocktail-grid .grid-items .grid-items-content-header {
+  display: flex;
+  gap: 0px;
+  align-items: start;
 }
 .Cocktail-section .Cocktail-grid .grid-items .grid-items-content-title {
   color: black;
   font-weight: bold;
+  width: 170px;
 }
 .Cocktail-section .Cocktail-grid .grid-items ul {
-  width: -moz-fit-content;
-  width: fit-content;
+  padding-left: 45px;
+  width: 100%;
 }
 
 @media (max-width: 420px) {

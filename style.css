@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .msg-farewell {
@@ -92,7 +92,7 @@ header .title-text {
 .Cocktail-section .Cocktail-grid .grid-items {
   color: rgb(106, 105, 105);
   height: auto;
-  width: 255px;
+  width: 235px;
   border: 0.1em solid #b4cdda;
   border-radius: 10px;
 }

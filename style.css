@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.msg-farewell {
+  font-size: 70px;
+  font-weight: bold;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 50% auto;
+}
+
+header {
+  width: 90%;
+  margin: 30px auto;
+}
+header .title {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px auto;
+  padding-bottom: 20px;
+  font-weight: bold;
+  color: #607D8B;
+}
+header .title-text {
+  margin: 0 auto;
+  color: rgb(106, 105, 105);
+}
+
+.Cocktail-section {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0px auto;
+  gap: 20px;
+}
+.Cocktail-section .grp-btn {
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+.Cocktail-section .btn {
+  margin: 0 auto;
+  width: auto;
+  padding: 5px 15px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #607D8B;
+  color: white;
+  justify-self: center;
+  font-size: 19px;
+}
+.Cocktail-section .txt-placeholder {
+  font-weight: bold;
+  margin: 20px auto;
+  text-align: center;
+  width: 70%;
+}
+.Cocktail-section .Cocktail-number {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: bold;
+  font-size: x-large;
+}
+.Cocktail-section .Cocktail-grid {
+  width: -moz-fit-content;
+  width: fit-content;
+  gap: 10px;
+  margin: 10px auto 30px auto;
+  padding: 0;
+  justify-content: center;
+}
+.Cocktail-section .Cocktail-grid .grid-items {
+  color: rgb(106, 105, 105);
+  height: auto;
+  width: 213px;
+  border: 0.1em solid #b4cdda;
+  border-radius: 10px;
+  padding: 0;
+}
+.Cocktail-section .Cocktail-grid .grid-items .grid-items-content-title {
+  color: black;
+  font-weight: bold;
+}
+.Cocktail-section .Cocktail-grid .grid-items ul {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+@media (max-width: 420px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .Cocktail-section .grp-btn {
+    flex-direction: column;
+  }
+  .Cocktail-section .btn {
+    width: auto;
+    padding: 5px 15px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 1000px) {
+  header .title-text {
+    width: 70%;
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */

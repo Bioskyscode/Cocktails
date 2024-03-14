@@ -1,0 +1,132 @@
+@import "variables.scss";
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.msg-farewell{
+    font-size: 70px;
+    font-weight: bold;
+    width: fit-content;
+    height: fit-content;
+    margin: 50% auto;
+}
+
+header{
+    width: 90%;
+    margin: 30px auto;
+
+    .title{
+        width: fit-content;
+        margin: 0px auto;
+        padding-bottom: 20px;
+        //font-size: 0px;
+        font-weight: bold;
+        color: $Color;
+    }
+
+    .title-text{
+        margin: 0 auto;
+        color: $txt-item-color;
+    }
+}
+
+.Cocktail-section{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0px auto;
+    gap: 20px;
+
+    .grp-btn{
+        display: flex;
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .btn{
+        //height: 40px;
+        margin: 0 auto;
+        width: auto;
+        padding: 5px 15px;
+        border: 2px solid $txt-color;
+        border-radius: 10px;
+        background-color: $Color;
+        color: $txt-color;
+        justify-self: center;
+        font-size: 19px;
+    }
+
+    .txt-placeholder{
+        font-weight: bold;
+        margin: 20px auto;
+        text-align: center;
+        width: 70%;
+    }
+
+    .Cocktail-number{
+        width: fit-content;
+        font-weight: bold;
+        //margin: 0 auto;
+        font-size: x-large;
+
+    }
+    .Cocktail-grid{
+        width: fit-content;
+        gap: 10px;
+        margin: 10px auto 30px auto;
+        padding: 0;
+        justify-content: center;
+
+        .grid-items{
+            color: $txt-item-color;
+            height: auto;
+            width: 213px;
+            border:0.1em solid $border-color;
+            border-radius: 10px;
+            padding: 0;
+        
+            .grid-items-content-title{
+                color: $txt-body-color;
+                font-weight: bold;
+                //margin: 0 auto;
+            }
+            ul{
+                width: fit-content;
+            }
+        }
+    }
+}
+
+@media (max-width:420px) {
+    body{
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:600px) {
+    .Cocktail-section{
+        .grp-btn{
+            flex-direction: column;
+        }
+        .btn{
+            width: auto;
+            padding: 5px 15px;
+            font-size: 16px;
+        }
+    }
+}
+
+@media (min-width:1000px) {
+    
+   header{
+    .title-text{
+        //color: red;
+        width: 70%;
+        text-align: center;
+    }
+   }
+}

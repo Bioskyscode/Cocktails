@@ -1,4 +1,5 @@
 $(".grid-items").hide();
+//$(".container").hide();
 var cocktails = [
     "display1", "display2", "display3", "display4", "display5", 
     "display6", "display7", "display8", "display9", "display10"

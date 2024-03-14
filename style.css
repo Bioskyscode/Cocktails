@@ -1,4 +1,6 @@
 body {
+  height: -moz-fit-content;
+  height: fit-content;
   margin: 0;
   padding: 0;
   font-family: "Times New Roman", Times, serif;
@@ -6,29 +8,38 @@ body {
 }
 
 .msg-farewell {
-  font-size: 70px;
+  display: flex;
+  align-items: center;
+  font-size: 50px;
   font-weight: bold;
   width: -moz-fit-content;
   width: fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  margin: 50% auto;
+  height: 100vh;
+  margin: auto;
+  color: black;
+  line-height: 50px;
 }
 
 header {
-  width: 90%;
-  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 20px auto;
 }
 header .title {
   width: -moz-fit-content;
   width: fit-content;
-  margin: 0px auto;
-  padding-bottom: 20px;
+  margin: 0px;
+  font-size: 25px;
   font-weight: bold;
   color: #607D8B;
 }
 header .title-text {
-  margin: 0 auto;
+  margin: 0px;
+  width: 95%;
   color: rgb(106, 105, 105);
 }
 
@@ -44,6 +55,7 @@ header .title-text {
   width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto;
+  gap: 15px;
 }
 .Cocktail-section .btn {
   margin: 0 auto;
@@ -108,9 +120,15 @@ header .title-text {
     font-size: 16px;
   }
 }
+@media (max-width: 1000px) {
+  .msg-farewell {
+    font-size: 20px;
+    line-height: 22px;
+  }
+}
 @media (min-width: 1000px) {
   header .title-text {
-    width: 70%;
+    width: 85%;
     text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */

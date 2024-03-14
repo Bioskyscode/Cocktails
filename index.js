@@ -72,7 +72,7 @@ $(".select-menu").on("click", function menuC() {
     disableMenu();
     setTimeout(() => {
         enableMenu();
-    }, 20000);
+    }, 30000);
 })
 
 // ########### Toggle-Menu ########
